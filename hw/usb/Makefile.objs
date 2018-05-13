@@ -23,6 +23,7 @@ common-obj-$(CONFIG_USB_AUDIO)        += dev-audio.o
 common-obj-$(CONFIG_USB_SERIAL)       += dev-serial.o
 common-obj-$(CONFIG_USB_NETWORK)      += dev-network.o
 common-obj-$(CONFIG_USB_BLUETOOTH)    += dev-bluetooth.o
+common-obj-$(CONFIG_USB_SN8F2288)     += dev-sn8f2288.o
 
 ifeq ($(CONFIG_USB_SMARTCARD),y)
 common-obj-y                          += dev-smartcard-reader.o
